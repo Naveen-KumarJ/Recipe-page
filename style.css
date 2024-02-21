@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'YoungSerif-Regular';
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: 'Outfit-VariableFont';
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(30, 54%, 90%) ;
+}
+img{
+    width:100%;
+    border-radius: 10px;
+}
+.container{
+    max-width:700px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+h1{
+    font-family:YoungSerif-Regular;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-top: 20px;
+}
+p{
+    margin-top: 10px;
+    font-family: Outfit-VariableFont;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color:  hsl(14, 45%, 36%);
+}
+.preparation-box{
+    background-color:hsl(330, 100%, 98%) ;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.preparation-box h3{
+    font-family: Outfit-VariableFont;
+    color: hsl(332, 51%, 32%)
+}
+.preparation-box ul li{
+    font-family: Outfit-VariableFont;
+    margin: 10px 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+h2{
+    font-family:YoungSerif-Regular;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+}
+
+.ingredients-list ul li{
+    font-family: Outfit-VariableFont;
+    margin: 10px 20px;
+    color: hsl(14, 45%, 36%);
+    list-style: square;
+  
+}
+
+.nutrition h2{
+    margin-bottom: 10px;
+}
+.nutrition p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.ingredients-list{
+    margin-bottom:35px;
+}
+.instructions-list ol li{
+    font-family: Outfit-VariableFont;
+    margin: 10px 20px;
+    color: hsl(14, 45%, 36%);
+    list-style: ;
+  
+}
+.instructions-list ol li::marker{
+    font-weight: bold;
+}
+.instructions-list{
+    margin-bottom:35px;
+}
+
+table{
+    width: 100%;
+    font-family: Outfit-VariableFont;
+    color: hsl(14, 45%, 36%);
+}
+table tr td{
+    padding: 10px 15px;
+
+}
+table tr td{
+    border-bottom: 1px solid black;
+}
+.last-row-table td{
+    border: none;
+}
+
+@media only screen and (max-width:375px) {
+   .container{padding: 0px;}
+   .definition-content{
+    padding: 30px;
+   }
+   img{
+    width: 100%;
+    border-radius: 0px;
+   }
+}
